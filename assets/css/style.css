@@ -82,3 +82,38 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+/*skills*/
+
+.skills_title {
+  background-color: #1ca4ac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: solid 4px #a5d3d5;
+  border-radius: 10px 10px 10px 10px;
+  border-style: groove;
+}
+
+/*portafolio titulo*/
+.skills_title img {
+  width: 12em;
+}
+
+/*skill*/
+.text_skill {
+  font-size: medium;
+  color: #fff;
+  background-color: rgba(255, 0, 0, 0);
+}
+.progress {
+  height: 25px;
+  background-color: #000;
+}
+.skills {
+  border-radius: 12px;
+  border: solid 5px #1ca4ac;
+  border-radius: 10px;
+  border-style: groove;
+}
