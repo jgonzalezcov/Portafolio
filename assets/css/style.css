@@ -1,0 +1,22 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+}
+
+main {
+  margin-top: 100px;
+}
+/*header*/
+header {
+  border-radius: 12px;
+  border: solid 4px #1ca4ac;
+  border-radius: 0px 0px 10px 10px;
+  border-style: groove;
+}
+/*navbar*/
+.navbar {
+  background-color: #000;
+}
+.navbar img {
+  width: 500px;
+}
