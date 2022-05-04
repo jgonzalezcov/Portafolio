@@ -17,6 +17,10 @@ header {
 .navbar {
   background-color: #000;
 }
-.navbar img {
-  width: 500px;
+#img_name {
+  width: 12em;
+}
+
+#img_portafolio {
+  width: 8em;
 }
