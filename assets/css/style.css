@@ -4,11 +4,10 @@ body {
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 10em;
 }
 /*header*/
 header {
-  border-radius: 12px;
   border: solid 4px #1ca4ac;
   border-radius: 0px 0px 10px 10px;
   border-style: groove;
@@ -23,4 +22,63 @@ header {
 
 #img_portafolio {
   width: 8em;
+}
+
+/*card*/
+.my_img img {
+  border: solid 8px #1ca4ac;
+  border-radius: 10px;
+  border-style: groove;
+}
+.dat_card {
+  border: solid 8px #1ca4ac;
+  border-radius: 10px;
+  border-style: groove;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 280px;
+}
+.img_text {
+  width: 140px;
+  border: solid 2px #1ca4ac;
+  border-radius: 10px;
+}
+.card-text {
+  font-size: small;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portafolio_title {
+  background-color: #1ca4ac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: solid 4px #a5d3d5;
+  border-radius: 10px 10px 10px 10px;
+  border-style: groove;
+}
+/*portafolio titulo*/
+.portafolio_title img {
+  width: 12em;
+}
+
+/*carousel imagenes*/
+.challenges_images {
+  border-radius: 12px;
+  border: solid 6px #1ca4ac;
+  border-style: groove;
+}
+
+.contain_carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
