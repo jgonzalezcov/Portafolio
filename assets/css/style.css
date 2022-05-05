@@ -152,6 +152,11 @@ header {
 .videos_title img {
   width: 12em;
 }
+/*contenedor video*/
+.videos {
+  width: 350px;
+  height: 315px;
+}
 
 /*Commit*/
 .commit_title {
