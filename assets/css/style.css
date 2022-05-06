@@ -7,7 +7,7 @@ main {
   margin-top: 10em;
 }
 /*header*/
-header {
+nav {
   border: solid 4px #1ca4ac;
   border-radius: 0px 0px 10px 10px;
   border-style: groove;
