@@ -66,7 +66,7 @@ header {
 }
 /*portafolio titulo*/
 .portafolio_title img {
-  width: 12em;
+  width: 16em;
 }
 
 /*carousel imagenes*/
@@ -128,7 +128,7 @@ header {
 }
 /*Fork titulo*/
 .fork_title img {
-  width: 12em;
+  width: 16em;
 }
 .img_fork {
   width: 20em;
@@ -170,7 +170,7 @@ header {
 }
 /*commit titulo*/
 .commit_title img {
-  width: 12em;
+  width: 16em;
 }
 .tu_commit {
   color: #fff;
@@ -195,4 +195,38 @@ footer {
 }
 .footer_area {
   margin-top: 150px;
+}
+
+/*tarejtas compañeros*/
+#mp_card {
+  width: 316px;
+  height: 202px;
+  background: transparent url('../img/maria_paz.png') 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+  background-size: cover;
+  border: solid 8px #1ca4ac;
+  border-radius: 10px;
+  border-style: groove;
+}
+#yn_card {
+  width: 316px;
+  height: 202px;
+  background: transparent url('../img/yaritza.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: cover;
+  border: solid 8px #1ca4ac;
+  border-radius: 10px;
+  border-style: groove;
+}
+
+.card-title {
+  color: #fff;
+}
+.card-link {
+  margin-top: 50em;
+  color: #fff;
+}
+.link_fork {
+  margin-top: 7em;
 }
