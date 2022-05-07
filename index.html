@@ -32,12 +32,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
       rel="stylesheet"
     />
-    <script src="assets/js/soy_responsiva.js"></script>
   </head>
   <body>
+    <!--Navbar-->
     <nav class="'menu container-fluid p-0 fixed-top">
-      <!--Bootstrap component 1 (Point 2 Challenge)-->
-      <!--Navbar-->
       <div class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -90,19 +88,20 @@
         </div>
       </div>
     </nav>
+    <!--main-->
     <main class="container-fluid">
+      <!--seccion tarjetas y foto principa-->
       <section id="cards_about_me">
-        <!--Bootstrap component 2 (Point 2 Challenge)-->
         <div class="row">
+          <!--foto principal-->
           <div class="col-sm-12 col-lg-3 p-0 column my_img">
             <img
               src="assets/img/yo.jpg"
               alt="Foto de Juan Gonzalez, de tres cuartos de cuerpo, con lentes de sol, polerón y polera gris, pantalones negros y un banano a la cintura. El fondo se ve un paisaje de una zona árida, en la cual corre un riachuelo."
             />
           </div>
-
           <div class="row mx-0 col-sm-12 col-lg-9 p-0 column">
-            <!--tarjeta 2-->
+            <!--tarjeta 1-->
             <div class="mt-2 col-sm-12 col-lg-6 p-0 column">
               <div
                 class="card text-white bg-dark mb-3 dat_card"
@@ -121,9 +120,8 @@
                 </div>
               </div>
             </div>
-            <!--/fin tarjeta 2-->
 
-            <!--tarjeta 3-->
+            <!--tarjeta 2-->
             <div class="mt-2 col-sm-12 col-lg-6 p-0 column">
               <div
                 class="card text-white bg-dark mb-3 dat_card"
@@ -145,7 +143,6 @@
                 </div>
               </div>
             </div>
-            <!--/fin tarjeta 3-->
           </div>
         </div>
       </section>
@@ -155,7 +152,7 @@
           alt="Palabra Desarrollo con letras blancas, fondo celeste y leve reflejo en su parte inferior"
         />
       </div>
-      <!--Bootstrap component 3 (Point 2 Challenge)-->
+      <!--Carrusel-->
       <section class="contain_carousel">
         <div class="row mt-5 w-75">
           <div class="col-sm-12 col-lg-6 challenges_images container pt-3 pb-3">
@@ -165,6 +162,7 @@
               data-bs-ride="carousel"
             >
               <div class="carousel-inner">
+                <!--imagen 1 carrusel-->
                 <div class="carousel-item active" data-bs-interval="3000">
                   <a
                     href="https://jgonzalezcov.github.io/arduinostore/"
@@ -176,6 +174,7 @@
                     />
                   </a>
                 </div>
+                <!--imagen 2 carrusel-->
                 <div class="carousel-item" data-bs-interval="3000">
                   <a
                     href="https://jgonzalezcov.github.io/cuppon/"
@@ -187,6 +186,7 @@
                     />
                   </a>
                 </div>
+                <!--imagen 3 carrusel-->
                 <div class="carousel-item" data-bs-interval="3000">
                   <a
                     href="https://jgonzalezcov.github.io/curriculum/"
@@ -198,6 +198,7 @@
                     />
                   </a>
                 </div>
+                <!--imagen 4 carrusel-->
                 <div class="carousel-item" data-bs-interval="3000">
                   <a
                     href="https://jgonzalezcov.github.io/iguana_page/"
@@ -210,6 +211,7 @@
                   </a>
                 </div>
               </div>
+              <!--botones carrusel-->
               <button
                 class="carousel-control-prev"
                 type="button"
@@ -238,6 +240,7 @@
           </div>
         </div>
       </section>
+      <!--Titulo seccion skills-->
       <div class="skills_title container-fluid mt-5" id="skills_ini">
         <img
           src="assets/img/Skills.png"
@@ -247,6 +250,7 @@
 
       <!--Skills-->
       <section class="skills container mt-5 px-0">
+        <!--skill 1-->
         <div class="bar px-0 container">
           <div class="progress pt-1">
             <div
@@ -261,6 +265,7 @@
             </div>
           </div>
         </div>
+        <!--skill 2-->
         <div class="bar px-0 container">
           <div class="progress pt-1">
             <div
@@ -275,6 +280,7 @@
             </div>
           </div>
         </div>
+        <!--skill 3-->
         <div class="bar px-0 container">
           <div class="progress pt-1">
             <div
@@ -289,7 +295,7 @@
             </div>
           </div>
         </div>
-
+        <!--skill 4-->
         <div class="bar px-0 container">
           <div class="progress pt-1">
             <div
@@ -304,6 +310,7 @@
             </div>
           </div>
         </div>
+        <!--skill 5-->
         <div class="bar px-0 container">
           <div class="progress pt-1">
             <div
@@ -318,6 +325,7 @@
             </div>
           </div>
         </div>
+        <!--skill 6-->
         <div class="bar px-0 container">
           <div class="progress pt-1">
             <div
@@ -332,6 +340,7 @@
             </div>
           </div>
         </div>
+        <!--skill 7-->
         <div class="bar px-0 container">
           <div class="progress pt-1">
             <div
@@ -347,14 +356,16 @@
           </div>
         </div>
       </section>
+      <!--Titulo seccion Fork y mis contribuciones-->
       <div class="fork_title container-fluid mt-5" id="fork_ini">
         <img
           src="assets/img/fork.png"
-          alt="Frace FORK y mis Contribuciones, con letras blancas, fondo celeste y leve reflejo en su parte inferior"
+          alt="Frace Fork y mis Contribuciones, con letras blancas, fondo celeste y leve reflejo en su parte inferior"
         />
       </div>
       <section id="fork_me">
         <div class="row pt-5">
+          <!--contribucion 1-->
           <div class="col-sm-12 col-lg-6 p-0 column pt-2">
             <div class="card" id="mp_card" style="width: 18rem">
               <div class="card-body">
@@ -377,7 +388,7 @@
               </div>
             </div>
           </div>
-
+          <!--contribucion 2-->
           <div class="col-sm-12 col-lg-6 p-0 column pt-2">
             <div class="card" id="yn_card" style="width: 18rem">
               <div class="card-body">
@@ -402,13 +413,15 @@
           </div>
         </div>
       </section>
+
+      <!--Titulo seccion videos-->
       <div class="videos_title container-fluid mt-5" id="videos_ini">
         <img
           src="assets/img/videos.png"
           alt="Palabra Videos con letras blancas, fondo celeste y leve reflejo en su parte inferior"
         />
       </div>
-
+      <!--video 1-->
       <section id="video_me">
         <div class="row pt-5">
           <div class="col-sm-12 col-lg-3 p-0 column pt-2">
@@ -420,7 +433,7 @@
               allowfullscreen
             ></iframe>
           </div>
-
+          <!--video 2-->
           <div class="col-sm-12 col-lg-3 p-0 column pt-2">
             <iframe
               class="video"
@@ -430,6 +443,7 @@
               allowfullscreen
             ></iframe>
           </div>
+          <!--video 3-->
           <div class="col-sm-12 col-lg-3 p-0 column pt-2">
             <iframe
               class="video"
@@ -439,6 +453,7 @@
               allowfullscreen
             ></iframe>
           </div>
+          <!--video 4-->
           <div class="col-sm-12 col-lg-3 p-0 column pt-2">
             <iframe
               class="video"
@@ -450,6 +465,7 @@
           </div>
         </div>
       </section>
+      <!--Titulo seccion Contribuciones-->
       <div class="commit_title container-fluid mt-5" id="commit_ini">
         <img
           src="assets/img/Contribuciones.png"
@@ -466,23 +482,20 @@
           </h5>
         </div>
         <!-- Hasta acá lo que debes copiar y pegar( pega debajo de esta línea)  para dejar tu commit-->
-        <!-- Si quieres realizar un commit copia desde aquí hasta el comentario de más abajo y cambia el texto del h5 con lo que quieras escribir-->
         <div>
           <h5 class="tu_commit pt-1">Commit realizado!</h5>
         </div>
         <div>
           <h5 class="tu_commit pt-1">Saludos Juan! - Nicolás Saavedra</h5>
         </div>
-        <!-- Hasta acá lo que debes copiar y pegar( pega debajo de esta línea)  para dejar tu commit-->
-        <!-- Si quieres realizar un commit copia desde aquí hasta el comentario de más abajo y cambia el texto del h5 con lo que quieras escribir-->
         <div>
           <h5 class="tu_commit pt-1">Commit de Oscar</h5>
         </div>
-        <!-- Hasta acá lo que debes copiar y pegar( pega debajo de esta línea)  para dejar tu commit-->
       </section>
     </main>
-
+    <!--footer-->
     <footer class="container-fluid row mx-0 footer_area">
+      <!--red social 1-->
       <div class="col-sm-12 col-lg-3 p-0 column pt-2 img_redes">
         <a href="https://github.com/jgonzalezcov" target="_blank">
           <img
@@ -490,6 +503,7 @@
             alt="logo de gitgub con fondo circular de color negro y un contorno de un gato color blanco en su interior, logo que se encuentra en un fondo blanco. "
         /></a>
       </div>
+      <!--red social 2-->
       <div class="col-sm-12 col-lg-3 p-0 column pt-2 img_redes">
         <a
           href="https://www.facebook.com/juangonzalezcovarrubias"
@@ -501,6 +515,7 @@
           />
         </a>
       </div>
+      <!--red social 3-->
       <div class="col-sm-12 col-lg-3 p-0 column pt-2 img_redes">
         <a href="https://www.instagram.com/jgonzalezcov/" target="_blank">
           <img
@@ -509,6 +524,7 @@
           />
         </a>
       </div>
+      <!--red social 4-->
       <div class="col-sm-12 col-lg-3 p-0 column pt-2 img_redes">
         <a
           href="https://www.linkedin.com/in/juan-gonz%C3%A1lez-1b1910175"
@@ -521,6 +537,7 @@
         </a>
       </div>
     </footer>
+    <script src="assets/js/soy_responsiva.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
