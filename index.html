@@ -33,511 +33,522 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
-    <!--Navbar-->
-    <nav class="'menu container-fluid p-0 fixed-top">
-      <div class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+    <div id="particles-js" class="p-0 m-0 fixed-top"></div>
+    <div class="container-fluid body_up p-0 m-0">
+      <!--Navbar-->
+      <nav class="'menu container-fluid p-0 fixed-top">
+        <div class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                id="img_portafolio"
+                src="assets/img/Portafolio.png"
+                alt="Palabra portafolio con letras blancas, fondo negro y leve reflejo en su parte inferior"
+              />
+            </a>
+            <a class="navbar-brand" href="#">
+              <img
+                id="img_name"
+                src="assets/img/nombre.png"
+                alt="Nombre Juan González Covarrubias con letras blancas, fondo negro y leve reflejo en su parte inferior"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portafolio">Desarrollos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills_ini">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#fork_ini">Mis Contribuciones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#videos_ini">Videos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#commit_ini">Contribuciones</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--main-->
+      <main class="container-fluid">
+        <!--seccion tarjetas y foto principa-->
+        <section id="cards_about_me">
+          <div class="row">
+            <!--foto principal-->
+            <div class="col-sm-12 col-lg-3 p-0 column my_img">
+              <img
+                src="assets/img/yo.jpg"
+                alt="Foto de Juan Gonzalez, de tres cuartos de cuerpo, con lentes de sol, polerón y polera gris, pantalones negros y un banano a la cintura. El fondo se ve un paisaje de una zona árida, en la cual corre un riachuelo."
+              />
+            </div>
+            <div class="row mx-0 col-sm-12 col-lg-9 p-0 column">
+              <!--tarjeta 1-->
+              <div class="mt-2 col-sm-12 col-lg-6 p-0 column">
+                <div
+                  class="card text-white bg-dark mb-3 dat_card"
+                  style="max-width: 18rem"
+                >
+                  <div class="card-header">
+                    <img
+                      class="img_text"
+                      src="assets/img/contacto.png"
+                      alt="Imagen palabra Contacto con letras blancas, fondo negro y leve reflejo en su parte inferior"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Hablemos.</h5>
+                    <p class="card-text">Email: jgonzalezcov@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+
+              <!--tarjeta 2-->
+              <div class="mt-2 col-sm-12 col-lg-6 p-0 column">
+                <div
+                  class="card text-white bg-dark mb-3 dat_card"
+                  style="max-width: 18rem"
+                >
+                  <div class="card-header">
+                    <img
+                      class="img_text"
+                      src="assets/img/pensamiento.png"
+                      alt="Imagen palabra pensamiento con letras blancas, fondo negro y leve reflejo en su parte inferior"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Un desafío, una pasión.</h5>
+                    <p class="card-text">
+                      Que es la vida sin una pasión, y que mejor pasión que la
+                      nacida desde los desafíos que nos da la vida.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="portafolio_title container-fluid mt-5" id="portafolio">
+          <img
+            src="assets/img/Desarrollos.png"
+            alt="Palabra Desarrollo con letras blancas, fondo celeste y leve reflejo en su parte inferior"
+          />
+        </div>
+        <!--Carrusel-->
+        <section class="contain_carousel">
+          <div class="row mt-5 w-75">
+            <div
+              class="col-sm-12 col-lg-6 challenges_images container pt-3 pb-3"
+            >
+              <div
+                id="carouselExampleInterval"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <!--imagen 1 carrusel-->
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <a
+                      href="https://jgonzalezcov.github.io/arduinostore/"
+                      target="_blank"
+                      ><img
+                        src="assets/img/ArduinoStore.png"
+                        class="d-block w-100"
+                        alt="Imagen de la página ArduinoStore, la cual es de un fondo celeste combinado con un verde claro con letras negras y blancas, en la cual se muestran placas arduinos y sus valores"
+                      />
+                    </a>
+                  </div>
+                  <!--imagen 2 carrusel-->
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <a
+                      href="https://jgonzalezcov.github.io/cuppon/"
+                      target="_blank"
+                      ><img
+                        src="assets/img/Cuppon.png"
+                        class="d-block w-100"
+                        alt="Imagen de la página Cuppon, la cual es de un fondo blanco con letras negras y blancas, cabecera verde, en la cual se muestran productos y servicios con sus respectivos valores"
+                      />
+                    </a>
+                  </div>
+                  <!--imagen 3 carrusel-->
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <a
+                      href="https://jgonzalezcov.github.io/curriculum/"
+                      target="_blank"
+                      ><img
+                        src="assets/img/Curriculum.png"
+                        class="d-block w-100"
+                        alt="Imagen de la página Curriculum, la cual es de un fondo blanco con letras negras y blancas, sus secciones son divididas con líneas azules, en la cual se muestran información de Juan González Covarrubias"
+                      />
+                    </a>
+                  </div>
+                  <!--imagen 4 carrusel-->
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <a
+                      href="https://jgonzalezcov.github.io/iguana_page/"
+                      target="_blank"
+                      ><img
+                        src="assets/img/Iguanas.png"
+                        class="d-block w-100"
+                        alt="Imagen de la página Iguana, la cual es de un fondo negro con un título de letras blancas en el que dice “iguanas”. La imagen principal que ocupa aproximadamente el 90% de la imagen es una iguana."
+                      />
+                    </a>
+                  </div>
+                </div>
+                <!--botones carrusel-->
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleInterval"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Titulo seccion skills-->
+        <div class="skills_title container-fluid mt-5" id="skills_ini">
+          <img
+            src="assets/img/Skills.png"
+            alt="Palabra Skills con letras blancas, fondo celeste y leve reflejo en su parte inferior"
+          />
+        </div>
+
+        <!--Skills-->
+        <section class="skills container mt-5 px-0">
+          <!--skill 1-->
+          <div class="bar px-0 container">
+            <div class="progress pt-1">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated col-sm-12 col-lg-8"
+                role="progressbar"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 90%"
+              >
+                SQL 90%
+              </div>
+            </div>
+          </div>
+          <!--skill 2-->
+          <div class="bar px-0 container">
+            <div class="progress pt-1">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 75%"
+              >
+                Electrónica 75%
+              </div>
+            </div>
+          </div>
+          <!--skill 3-->
+          <div class="bar px-0 container">
+            <div class="progress pt-1">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                role="progressbar"
+                aria-valuenow="60"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 60%"
+              >
+                Unity 60%
+              </div>
+            </div>
+          </div>
+          <!--skill 4-->
+          <div class="bar px-0 container">
+            <div class="progress pt-1">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                role="progressbar"
+                aria-valuenow="55"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 55%"
+              >
+                HTML 55%
+              </div>
+            </div>
+          </div>
+          <!--skill 5-->
+          <div class="bar px-0 container">
+            <div class="progress pt-1">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                role="progressbar"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 50%"
+              >
+                CSS 50%
+              </div>
+            </div>
+          </div>
+          <!--skill 6-->
+          <div class="bar px-0 container">
+            <div class="progress pt-1">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                aria-valuenow="20"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 20%"
+              >
+                Python 20%
+              </div>
+            </div>
+          </div>
+          <!--skill 7-->
+          <div class="bar px-0 container">
+            <div class="progress pt-1">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                role="progressbar"
+                aria-valuenow="5"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 5%"
+              >
+                JS 5%
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Titulo seccion Fork y mis contribuciones-->
+        <div class="fork_title container-fluid mt-5" id="fork_ini">
+          <img
+            src="assets/img/fork.png"
+            alt="Frace Fork y mis Contribuciones, con letras blancas, fondo celeste y leve reflejo en su parte inferior"
+          />
+        </div>
+        <section id="fork_me">
+          <div class="row pt-5">
+            <!--contribucion 1-->
+            <div class="col-sm-12 col-lg-6 p-0 column pt-2">
+              <div class="card" id="mp_card" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">Maria Paz Labbe</h5>
+
+                  <div class="container link_fork p-0 mx-0">
+                    <a
+                      href="https://github.com/jgonzalezcov/MariaPazLabbe.github.io/commits/main"
+                      class="card-link"
+                      target="_blank"
+                      >Mi Fork</a
+                    >
+                    <a
+                      href="https://github.com/MariaPazLabbe/MariaPazLabbe.github.io/graphs/contributors"
+                      class="card-link"
+                      target="_blank"
+                      >Mi Contribución</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--contribucion 2-->
+            <div class="col-sm-12 col-lg-6 p-0 column pt-2">
+              <div class="card" id="yn_card" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">Yaritza Navarrete</h5>
+
+                  <div class="container link_fork p-0 mx-0">
+                    <a
+                      href="https://github.com/jgonzalezcov/Yarynav.github.io"
+                      class="card-link"
+                      target="_blank"
+                      >Mi Fork</a
+                    >
+                    <a
+                      href="https://github.com/Yarynav/Yarynav.github.io/graphs/contributors"
+                      class="card-link"
+                      target="_blank"
+                      >Mi Contribución</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Titulo seccion videos-->
+        <div class="videos_title container-fluid mt-5" id="videos_ini">
+          <img
+            src="assets/img/videos.png"
+            alt="Palabra Videos con letras blancas, fondo celeste y leve reflejo en su parte inferior"
+          />
+        </div>
+        <!--video 1-->
+        <section id="video_me">
+          <div class="row pt-5">
+            <div class="col-sm-12 col-lg-3 p-0 column pt-2">
+              <iframe
+                class="video"
+                src="https://www.youtube.com/embed/RW3VkvOfCFw"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <!--video 2-->
+            <div class="col-sm-12 col-lg-3 p-0 column pt-2">
+              <iframe
+                class="video"
+                src="https://www.youtube.com/embed/2Neb4V40K3k"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <!--video 3-->
+            <div class="col-sm-12 col-lg-3 p-0 column pt-2">
+              <iframe
+                class="video"
+                src="https://www.youtube.com/embed/dL25Hxcp6B4"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <!--video 4-->
+            <div class="col-sm-12 col-lg-3 p-0 column pt-2">
+              <iframe
+                class="video"
+                src="https://www.youtube.com/embed/c4X2ne-eNLs"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
+        <!--Titulo seccion Contribuciones-->
+        <div class="commit_title container-fluid mt-5" id="commit_ini">
+          <img
+            src="assets/img/Contribuciones.png"
+            alt="Imagen que se encuentra la palabra Contribuciones, con letras blancas, fondo celeste y leve reflejo en su parte inferior"
+          />
+        </div>
+        <section class="container pt-3">
+          <!-- Si quieres realizar un commit copia desde aquí hasta el comentario de más abajo y cambia el texto del h5 con lo que quieras escribir-->
+          <div>
+            <h5 class="tu_commit pt-1">
+              Si quieres realizar tu commit, dirígete a esta línea del código
+              html y lee las instrucción ¡Esto te facilitara la vida para
+              cumplir ese punto del desafío!
+            </h5>
+          </div>
+          <!-- Hasta acá lo que debes copiar y pegar( pega debajo de esta línea)  para dejar tu commit-->
+          <div>
+            <h5 class="tu_commit pt-1">Commit realizado!</h5>
+          </div>
+          <div>
+            <h5 class="tu_commit pt-1">Saludos Juan! - Nicolás Saavedra</h5>
+          </div>
+          <div>
+            <h5 class="tu_commit pt-1">Commit de Oscar</h5>
+          </div>
+        </section>
+      </main>
+      <!--footer-->
+      <footer class="container-fluid row mx-0 footer_area">
+        <!--red social 1-->
+        <div class="col-sm-12 col-lg-3 p-0 column pt-2 img_redes">
+          <a href="https://github.com/jgonzalezcov" target="_blank">
             <img
-              id="img_portafolio"
-              src="assets/img/Portafolio.png"
-              alt="Palabra portafolio con letras blancas, fondo negro y leve reflejo en su parte inferior"
-            />
-          </a>
-          <a class="navbar-brand" href="#">
-            <img
-              id="img_name"
-              src="assets/img/nombre.png"
-              alt="Nombre Juan González Covarrubias con letras blancas, fondo negro y leve reflejo en su parte inferior"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+              src="assets/img/GitHub.png"
+              alt="logo de gitgub con fondo circular de color negro y un contorno de un gato color blanco en su interior, logo que se encuentra en un fondo blanco. "
+          /></a>
+        </div>
+        <!--red social 2-->
+        <div class="col-sm-12 col-lg-3 p-0 column pt-2 img_redes">
+          <a
+            href="https://www.facebook.com/juangonzalezcovarrubias"
+            target="_blank"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portafolio">Desarrollos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills_ini">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#fork_ini">Mis Contribuciones</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#videos_ini">Videos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#commit_ini">Contribuciones</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!--main-->
-    <main class="container-fluid">
-      <!--seccion tarjetas y foto principa-->
-      <section id="cards_about_me">
-        <div class="row">
-          <!--foto principal-->
-          <div class="col-sm-12 col-lg-3 p-0 column my_img">
             <img
-              src="assets/img/yo.jpg"
-              alt="Foto de Juan Gonzalez, de tres cuartos de cuerpo, con lentes de sol, polerón y polera gris, pantalones negros y un banano a la cintura. El fondo se ve un paisaje de una zona árida, en la cual corre un riachuelo."
+              src="assets/img/faceb.jpg"
+              alt="Logo de Facebook, el cual es una F de color blanco que se encuentra sobre un fondo azul."
             />
-          </div>
-          <div class="row mx-0 col-sm-12 col-lg-9 p-0 column">
-            <!--tarjeta 1-->
-            <div class="mt-2 col-sm-12 col-lg-6 p-0 column">
-              <div
-                class="card text-white bg-dark mb-3 dat_card"
-                style="max-width: 18rem"
-              >
-                <div class="card-header">
-                  <img
-                    class="img_text"
-                    src="assets/img/contacto.png"
-                    alt="Imagen palabra Contacto con letras blancas, fondo negro y leve reflejo en su parte inferior"
-                  />
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Hablemos.</h5>
-                  <p class="card-text">Email: jgonzalezcov@gmail.com</p>
-                </div>
-              </div>
-            </div>
+          </a>
+        </div>
+        <!--red social 3-->
+        <div class="col-sm-12 col-lg-3 p-0 column pt-2 img_redes">
+          <a href="https://www.instagram.com/jgonzalezcov/" target="_blank">
+            <img
+              src="assets/img/instagram.jpg"
+              alt="Logo de Instagram, el cual es el contorno de un lente de cámara de color blanco, el cual se encuentra sobre un fondo de una gama de colores que van desde el amarillo en la parte inferior izquierda pasando por rojo hasta llegar a un color fucsia en la parte superior derecha."
+            />
+          </a>
+        </div>
+        <!--red social 4-->
+        <div class="col-sm-12 col-lg-3 p-0 column pt-2 img_redes">
+          <a
+            href="https://www.linkedin.com/in/juan-gonz%C3%A1lez-1b1910175"
+            target="_blank"
+          >
+            <img
+              src="assets/img/linkedin.png"
+              alt="Logo de linkedin, el cual son las letras 'i' y 'n' de color blanco que se encuentra sobre un fondo azul"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
 
-            <!--tarjeta 2-->
-            <div class="mt-2 col-sm-12 col-lg-6 p-0 column">
-              <div
-                class="card text-white bg-dark mb-3 dat_card"
-                style="max-width: 18rem"
-              >
-                <div class="card-header">
-                  <img
-                    class="img_text"
-                    src="assets/img/pensamiento.png"
-                    alt="Imagen palabra pensamiento con letras blancas, fondo negro y leve reflejo en su parte inferior"
-                  />
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Un desafío, una pasión.</h5>
-                  <p class="card-text">
-                    Que es la vida sin una pasión, y que mejor pasión que la
-                    nacida desde los desafíos que nos da la vida.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="portafolio_title container-fluid mt-5" id="portafolio">
-        <img
-          src="assets/img/Desarrollos.png"
-          alt="Palabra Desarrollo con letras blancas, fondo celeste y leve reflejo en su parte inferior"
-        />
-      </div>
-      <!--Carrusel-->
-      <section class="contain_carousel">
-        <div class="row mt-5 w-75">
-          <div class="col-sm-12 col-lg-6 challenges_images container pt-3 pb-3">
-            <div
-              id="carouselExampleInterval"
-              class="carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <!--imagen 1 carrusel-->
-                <div class="carousel-item active" data-bs-interval="3000">
-                  <a
-                    href="https://jgonzalezcov.github.io/arduinostore/"
-                    target="_blank"
-                    ><img
-                      src="assets/img/ArduinoStore.png"
-                      class="d-block w-100"
-                      alt="Imagen de la página ArduinoStore, la cual es de un fondo celeste combinado con un verde claro con letras negras y blancas, en la cual se muestran placas arduinos y sus valores"
-                    />
-                  </a>
-                </div>
-                <!--imagen 2 carrusel-->
-                <div class="carousel-item" data-bs-interval="3000">
-                  <a
-                    href="https://jgonzalezcov.github.io/cuppon/"
-                    target="_blank"
-                    ><img
-                      src="assets/img/Cuppon.png"
-                      class="d-block w-100"
-                      alt="Imagen de la página Cuppon, la cual es de un fondo blanco con letras negras y blancas, cabecera verde, en la cual se muestran productos y servicios con sus respectivos valores"
-                    />
-                  </a>
-                </div>
-                <!--imagen 3 carrusel-->
-                <div class="carousel-item" data-bs-interval="3000">
-                  <a
-                    href="https://jgonzalezcov.github.io/curriculum/"
-                    target="_blank"
-                    ><img
-                      src="assets/img/Curriculum.png"
-                      class="d-block w-100"
-                      alt="Imagen de la página Curriculum, la cual es de un fondo blanco con letras negras y blancas, sus secciones son divididas con líneas azules, en la cual se muestran información de Juan González Covarrubias"
-                    />
-                  </a>
-                </div>
-                <!--imagen 4 carrusel-->
-                <div class="carousel-item" data-bs-interval="3000">
-                  <a
-                    href="https://jgonzalezcov.github.io/iguana_page/"
-                    target="_blank"
-                    ><img
-                      src="assets/img/Iguanas.png"
-                      class="d-block w-100"
-                      alt="Imagen de la página Iguana, la cual es de un fondo negro con un título de letras blancas en el que dice “iguanas”. La imagen principal que ocupa aproximadamente el 90% de la imagen es una iguana."
-                    />
-                  </a>
-                </div>
-              </div>
-              <!--botones carrusel-->
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleInterval"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleInterval"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Titulo seccion skills-->
-      <div class="skills_title container-fluid mt-5" id="skills_ini">
-        <img
-          src="assets/img/Skills.png"
-          alt="Palabra Skills con letras blancas, fondo celeste y leve reflejo en su parte inferior"
-        />
-      </div>
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/app.js"></script>
 
-      <!--Skills-->
-      <section class="skills container mt-5 px-0">
-        <!--skill 1-->
-        <div class="bar px-0 container">
-          <div class="progress pt-1">
-            <div
-              class="progress-bar progress-bar-striped progress-bar-animated col-sm-12 col-lg-8"
-              role="progressbar"
-              aria-valuenow="90"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 90%"
-            >
-              SQL 90%
-            </div>
-          </div>
-        </div>
-        <!--skill 2-->
-        <div class="bar px-0 container">
-          <div class="progress pt-1">
-            <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
-              role="progressbar"
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 75%"
-            >
-              Electrónica 75%
-            </div>
-          </div>
-        </div>
-        <!--skill 3-->
-        <div class="bar px-0 container">
-          <div class="progress pt-1">
-            <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-info"
-              role="progressbar"
-              aria-valuenow="60"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 60%"
-            >
-              Unity 60%
-            </div>
-          </div>
-        </div>
-        <!--skill 4-->
-        <div class="bar px-0 container">
-          <div class="progress pt-1">
-            <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
-              role="progressbar"
-              aria-valuenow="55"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 55%"
-            >
-              HTML 55%
-            </div>
-          </div>
-        </div>
-        <!--skill 5-->
-        <div class="bar px-0 container">
-          <div class="progress pt-1">
-            <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
-              role="progressbar"
-              aria-valuenow="50"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 50%"
-            >
-              CSS 50%
-            </div>
-          </div>
-        </div>
-        <!--skill 6-->
-        <div class="bar px-0 container">
-          <div class="progress pt-1">
-            <div
-              class="progress-bar progress-bar-striped progress-bar-animated"
-              role="progressbar"
-              aria-valuenow="20"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 20%"
-            >
-              Python 20%
-            </div>
-          </div>
-        </div>
-        <!--skill 7-->
-        <div class="bar px-0 container">
-          <div class="progress pt-1">
-            <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
-              role="progressbar"
-              aria-valuenow="5"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 5%"
-            >
-              JS 5%
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Titulo seccion Fork y mis contribuciones-->
-      <div class="fork_title container-fluid mt-5" id="fork_ini">
-        <img
-          src="assets/img/fork.png"
-          alt="Frace Fork y mis Contribuciones, con letras blancas, fondo celeste y leve reflejo en su parte inferior"
-        />
-      </div>
-      <section id="fork_me">
-        <div class="row pt-5">
-          <!--contribucion 1-->
-          <div class="col-sm-12 col-lg-6 p-0 column pt-2">
-            <div class="card" id="mp_card" style="width: 18rem">
-              <div class="card-body">
-                <h5 class="card-title">Maria Paz Labbe</h5>
-
-                <div class="container link_fork p-0 mx-0">
-                  <a
-                    href="https://github.com/jgonzalezcov/MariaPazLabbe.github.io/commits/main"
-                    class="card-link"
-                    target="_blank"
-                    >Mi Fork</a
-                  >
-                  <a
-                    href="https://github.com/MariaPazLabbe/MariaPazLabbe.github.io/graphs/contributors"
-                    class="card-link"
-                    target="_blank"
-                    >Mi Contribución</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--contribucion 2-->
-          <div class="col-sm-12 col-lg-6 p-0 column pt-2">
-            <div class="card" id="yn_card" style="width: 18rem">
-              <div class="card-body">
-                <h5 class="card-title">Yaritza Navarrete</h5>
-
-                <div class="container link_fork p-0 mx-0">
-                  <a
-                    href="https://github.com/jgonzalezcov/Yarynav.github.io"
-                    class="card-link"
-                    target="_blank"
-                    >Mi Fork</a
-                  >
-                  <a
-                    href="https://github.com/Yarynav/Yarynav.github.io/graphs/contributors"
-                    class="card-link"
-                    target="_blank"
-                    >Mi Contribución</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--Titulo seccion videos-->
-      <div class="videos_title container-fluid mt-5" id="videos_ini">
-        <img
-          src="assets/img/videos.png"
-          alt="Palabra Videos con letras blancas, fondo celeste y leve reflejo en su parte inferior"
-        />
-      </div>
-      <!--video 1-->
-      <section id="video_me">
-        <div class="row pt-5">
-          <div class="col-sm-12 col-lg-3 p-0 column pt-2">
-            <iframe
-              class="video"
-              src="https://www.youtube.com/embed/RW3VkvOfCFw"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <!--video 2-->
-          <div class="col-sm-12 col-lg-3 p-0 column pt-2">
-            <iframe
-              class="video"
-              src="https://www.youtube.com/embed/2Neb4V40K3k"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <!--video 3-->
-          <div class="col-sm-12 col-lg-3 p-0 column pt-2">
-            <iframe
-              class="video"
-              src="https://www.youtube.com/embed/dL25Hxcp6B4"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <!--video 4-->
-          <div class="col-sm-12 col-lg-3 p-0 column pt-2">
-            <iframe
-              class="video"
-              src="https://www.youtube.com/embed/c4X2ne-eNLs"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </section>
-      <!--Titulo seccion Contribuciones-->
-      <div class="commit_title container-fluid mt-5" id="commit_ini">
-        <img
-          src="assets/img/Contribuciones.png"
-          alt="Imagen que se encuentra la palabra Contribuciones, con letras blancas, fondo celeste y leve reflejo en su parte inferior"
-        />
-      </div>
-      <section class="container pt-3">
-        <!-- Si quieres realizar un commit copia desde aquí hasta el comentario de más abajo y cambia el texto del h5 con lo que quieras escribir-->
-        <div>
-          <h5 class="tu_commit pt-1">
-            Si quieres realizar tu commit, dirígete a esta línea del código html
-            y lee las instrucción ¡Esto te facilitara la vida para cumplir ese
-            punto del desafío!
-          </h5>
-        </div>
-        <!-- Hasta acá lo que debes copiar y pegar( pega debajo de esta línea)  para dejar tu commit-->
-        <div>
-          <h5 class="tu_commit pt-1">Commit realizado!</h5>
-        </div>
-        <div>
-          <h5 class="tu_commit pt-1">Saludos Juan! - Nicolás Saavedra</h5>
-        </div>
-        <div>
-          <h5 class="tu_commit pt-1">Commit de Oscar</h5>
-        </div>
-      </section>
-    </main>
-    <!--footer-->
-    <footer class="container-fluid row mx-0 footer_area">
-      <!--red social 1-->
-      <div class="col-sm-12 col-lg-3 p-0 column pt-2 img_redes">
-        <a href="https://github.com/jgonzalezcov" target="_blank">
-          <img
-            src="assets/img/GitHub.png"
-            alt="logo de gitgub con fondo circular de color negro y un contorno de un gato color blanco en su interior, logo que se encuentra en un fondo blanco. "
-        /></a>
-      </div>
-      <!--red social 2-->
-      <div class="col-sm-12 col-lg-3 p-0 column pt-2 img_redes">
-        <a
-          href="https://www.facebook.com/juangonzalezcovarrubias"
-          target="_blank"
-        >
-          <img
-            src="assets/img/faceb.jpg"
-            alt="Logo de Facebook, el cual es una F de color blanco que se encuentra sobre un fondo azul."
-          />
-        </a>
-      </div>
-      <!--red social 3-->
-      <div class="col-sm-12 col-lg-3 p-0 column pt-2 img_redes">
-        <a href="https://www.instagram.com/jgonzalezcov/" target="_blank">
-          <img
-            src="assets/img/instagram.jpg"
-            alt="Logo de Instagram, el cual es el contorno de un lente de cámara de color blanco, el cual se encuentra sobre un fondo de una gama de colores que van desde el amarillo en la parte inferior izquierda pasando por rojo hasta llegar a un color fucsia en la parte superior derecha."
-          />
-        </a>
-      </div>
-      <!--red social 4-->
-      <div class="col-sm-12 col-lg-3 p-0 column pt-2 img_redes">
-        <a
-          href="https://www.linkedin.com/in/juan-gonz%C3%A1lez-1b1910175"
-          target="_blank"
-        >
-          <img
-            src="assets/img/linkedin.png"
-            alt="Logo de linkedin, el cual son las letras 'i' y 'n' de color blanco que se encuentra sobre un fondo azul"
-          />
-        </a>
-      </div>
-    </footer>
-    <script src="assets/js/soy_responsiva.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
